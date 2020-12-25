@@ -1,0 +1,19 @@
+<template>
+  <vue-tableau-slider v-model="values" />
+</template>
+
+<script>
+  import vueTableauSlider from 'vue-tableau-slider'
+
+  export default {
+    name: 'Example02Basic',
+    data () {
+      return {
+        values: [10,50]
+      }
+    },
+    components: {
+      vueTableauSlider
+    },
+  }
+</script>

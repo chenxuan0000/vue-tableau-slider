@@ -1,0 +1,43 @@
+{
+  "name": "vue-tableau-slider",
+  "version": "1.0.0",
+  "author": "xuan.chen <chenxuan0316@gmail.com>",
+  "main": "dist/vue-tableau-slider.min.js",
+  "private": false,
+  "description": "A simple slider same as tableau",
+  "scripts": {
+    "build": "rollup --config rollup.config.js"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-plugin-module-resolver": "^4.1.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-stage-3": "^6.24.1",
+    "node-sass": "^4.12.0",
+    "rollup": "^2.35.1",
+    "rollup-plugin-babel": "^3.0.0",
+    "rollup-plugin-commonjs": "^10.1.0",
+    "rollup-plugin-node-resolve": "^5.2.0",
+    "rollup-plugin-uglify": "^6.0.4",
+    "rollup-plugin-vue": "^5.0.0",
+    "sass-loader": "^7.1.0",
+    "vue": "^2.6.12",
+    "vue-template-compiler": "^2.6.12"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chenxuan0000/slider.git"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/chenxuan0000/vue-tableau-slider/issues"
+  },
+  "homepage": "https://github.com/chenxuan0000/vue-tableau-slider#readme",
+  "keywords": [
+    "vue",
+    "vue2",
+    "components",
+    "tableau",
+    "slider"
+  ]
+}

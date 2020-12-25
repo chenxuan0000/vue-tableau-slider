@@ -1,0 +1,27 @@
+{
+  "name": "vue-tableau-slider-website",
+  "version": "1.0.0",
+  "author": "xuan.chen <chenxuan0316@gmail.com>",
+  "private": false,
+  "description": "vue-tableau-slider website",
+  "scripts": {
+    "docs:dev": "sudo vuepress dev docs",
+    "docs:build": "sudo vuepress build docs",
+    "docs:deploy": "sudo ./deploy.sh"
+  },
+  "dependencies": {
+    "vue-tableau-slider": "1.0.0"
+  },
+  "devDependencies": {
+    "@vuepress/plugin-back-to-top": "^1.6.0",
+    "@vuepress/plugin-google-analytics": "^1.6.0",
+    "vuepress": "^1.7.1",
+    "vuepress-plugin-seo": "^0.1.4",
+    "vuepress-plugin-serve": "^2.0.4",
+    "vuepress-plugin-sitemap": "^2.3.1"
+  },
+  "resolutions": {
+    "watchpack": "1.6.1"
+  },
+  "license": "MIT"
+}
