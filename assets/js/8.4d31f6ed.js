@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[8],{370:function(e,n,a){"use strict";a.r(n);var l=a(307),t={name:"Example01Basic",components:{vueTableauSlider:a.n(l).a}},u=a(42),s=Object(u.a)(t,(function(){var e=this.$createElement;return(this._self._c||e)("vue-tableau-slider")}),[],!1,null,null,null);n.default=s.exports}}]);
