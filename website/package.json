@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "author": "xuan.chen <chenxuan0316@gmail.com>",
   "private": false,
+  "main": "layouts/Layout.vue",
   "description": "vue-tableau-slider website",
   "scripts": {
     "docs:dev": "sudo vuepress dev docs",
@@ -10,7 +11,7 @@
     "docs:deploy": "sudo ./deploy.sh"
   },
   "dependencies": {
-    "vue-tableau-slider": "1.0.0"
+    "vue-tableau-slider": "1.0.1"
   },
   "devDependencies": {
     "@vuepress/plugin-back-to-top": "^1.6.0",

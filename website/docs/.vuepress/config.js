@@ -16,7 +16,16 @@ module.exports = {
       description: "一个简单的基于vue.js的无缝滚动",
     },
   },
-  head: [["link", { rel: "icon", href: `/favicon.ico` }]],
+  head: [
+    ["link", { rel: "icon", href: `/favicon.ico` }],
+    [
+      "meta",
+      {
+        name: "viewport",
+        content: `width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0,user-scalable=no`,
+      },
+    ],
+  ],
   themeConfig: {
     repo: "chenxuan0000/vue-tableau-slider",
     locales: {
@@ -42,12 +51,7 @@ module.exports = {
             {
               title: "Guide",
               collapsable: false,
-              children: [
-                "",
-                "usage",
-                "properties",
-                "events",
-              ],
+              children: ["", "usage", "properties", "events"],
             },
             {
               title: "Examples",
@@ -91,12 +95,7 @@ module.exports = {
             {
               title: "指南",
               collapsable: false,
-              children: [
-                "",
-                "usage",
-                "properties",
-                "events",
-              ],
+              children: ["", "usage", "properties", "events"],
             },
             {
               title: "示例",

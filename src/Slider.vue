@@ -363,7 +363,6 @@
     &-btn {
       position: absolute;
       top: -5px;
-      z-index: 90;
       &.btn-min {
         left: 0;
         b.dragable {
